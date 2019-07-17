@@ -129,10 +129,7 @@ class HtmlParser:
 def main():
     parser1 = HtmlParser('https://novosibirsk.hh.ru/vacancy/30036210')
     print(parser1.parse())
-    # parser1.save_in_file()
-
-    # parser2 = HtmlParser('https://lenta.ru/news/2019/03/18/scherbakova/')
-    # print(parser2.parse())
+    parser1.save_in_file()
 
 
 if __name__ == '__main__':
